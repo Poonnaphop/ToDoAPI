@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KANPNG\\Desktop\\mobile\\hw3\\ToDoAPI\\ToDoAPI.csproj": {}
+    "C:\\Users\\KANPNG\\Desktop\\mobile\\hw3\\toDoAPI\\ToDoAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KANPNG\\Desktop\\mobile\\hw3\\ToDoAPI\\ToDoAPI.csproj": {
+    "C:\\Users\\KANPNG\\Desktop\\mobile\\hw3\\toDoAPI\\ToDoAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KANPNG\\Desktop\\mobile\\hw3\\ToDoAPI\\ToDoAPI.csproj",
+        "projectUniqueName": "C:\\Users\\KANPNG\\Desktop\\mobile\\hw3\\toDoAPI\\ToDoAPI.csproj",
         "projectName": "ToDoAPI",
-        "projectPath": "C:\\Users\\KANPNG\\Desktop\\mobile\\hw3\\ToDoAPI\\ToDoAPI.csproj",
+        "projectPath": "C:\\Users\\KANPNG\\Desktop\\mobile\\hw3\\toDoAPI\\ToDoAPI.csproj",
         "packagesPath": "C:\\Users\\KANPNG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KANPNG\\Desktop\\mobile\\hw3\\ToDoAPI\\obj\\",
+        "outputPath": "C:\\Users\\KANPNG\\Desktop\\mobile\\hw3\\toDoAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

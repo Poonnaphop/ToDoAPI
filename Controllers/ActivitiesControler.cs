@@ -24,12 +24,14 @@ public class ActivitiesController : ControllerBase
         var db = new ToDoDbContext();
 
         var activities = from a in db.Activity
+
         where a.Uid == User.Identity.Name
         select new {
             id = a.Id,
             time = Program.Thai(a.When),
             name = a.Name
         };
+        
 
         if(!activities.Any()) return NoContent();
 
@@ -120,11 +122,12 @@ public class ActivitiesController : ControllerBase
         db.SaveChanges();
         return Ok();
     }
-/*
+
     [HttpDelete]
     [Authorize(Roles = "user")]
     public IActionResult Delete([FromBody] DTOs.DeleteBody data)
     {
+
         var db = new ToDoDbContext();
 
         if(data.Id == null) BadRequest(new {reason="No id"});
@@ -137,7 +140,7 @@ public class ActivitiesController : ControllerBase
         db.SaveChanges();
         return Ok();
     }
-    */
+    
 
 }
 
