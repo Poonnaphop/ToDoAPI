@@ -102,7 +102,7 @@ public class ActivitiesController : ControllerBase
         a.When = data.When;
 
         db.SaveChanges();
-
+ 
         return Ok();
     }
 
